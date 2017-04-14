@@ -1,2 +1,2 @@
-# springboot-protobuf
-REST API with Spring Boot + Protocol Buffer
+# Spring Boot + Protocol Buffer
+REST API using Spring Boot + Protocol Buffer
