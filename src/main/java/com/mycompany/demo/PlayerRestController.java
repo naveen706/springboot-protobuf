@@ -13,7 +13,7 @@ class PlayerRestController {
     private final PlayerRepository playerRepository;
 
     /**
-     * {@code curl -v http://localhost:8080/customers/1}
+     * {@code curl -v http://localhost:8080/players/1}
      */
     @GetMapping("/players/{id}")
     PlayerProtos.Player player(@PathVariable Integer id) {
@@ -21,7 +21,7 @@ class PlayerRestController {
     }
 
     /**
-     * {@code curl -v http://localhost:8080/customers}
+     * {@code curl -v http://localhost:8080/players}
      */
     @GetMapping("/players")
     PlayerProtos.PlayerList findAll() {
